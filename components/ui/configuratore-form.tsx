@@ -12,7 +12,7 @@ import {
   DimensioneType,
   ControlloType,
   OpzioneAggiuntiva
-} from '@/lib/data';
+} from '../../lib/data';
 
 export default function ConfiguratoreForm() {
   const [serieSelezionata, setSerieSelezionata] = useState<SerieType>('145');
